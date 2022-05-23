@@ -1,0 +1,209 @@
+body{
+    background-color: rgb(244,243,236);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 50px solid rgb(62,28,72);
+    border-radius: 10px;
+    padding: 1% 5% 1% 10%;
+    margin: 3%;
+}
+h1,h3,p{
+   color:rgb(48,48,46);
+}
+b{
+    color: rgb(196,53,48);
+}
+nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: rgb(244,243,236);
+}
+.logo{
+    margin-right: 10%;
+    margin-top: 2.5%;
+}
+.logo::before{
+     content: '';
+    background-color: rgb(97, 38, 82);
+    display: block;
+    width: 7em;
+    height: 5px;
+}
+.one a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.two a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+/* button{
+    margin-left: 5%;
+} */
+.one{
+    background-color: white;
+    width: 8%;
+    height: 30px;
+    border: 0.5px solid rgb(207, 205, 205);
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.two{
+    background-color: rgb(48,48,46);
+    margin-left: 5%;
+    width: 8%;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 2%;
+}
+
+.why{
+    position: relative;
+    font-size: 20px;
+    margin-left: 3%;
+    margin-top: 2%;
+    
+    /* text-align: center; */
+    /* background-color: blueviolet; */
+    /* width: 20%; */
+}
+.one1{
+    color: rgb(48,48,46);
+    background-color: rgb(210, 206, 252);
+    padding:  4% 2.5%;
+    width: 155px;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.two2{
+    color: rgb(48,48,46);
+    background-color: rgb(210, 206, 252);
+    padding: 7% 5%;
+    width: 85px;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.reasons{
+    position: absolute;
+    display: none;
+    /* margin-top: 12%; */
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    /* border: 1px solid rgb(65, 63, 63); */
+
+}
+.why:hover .reasons{
+    display: block;
+    
+}
+.reasons a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+}
+.reasons a:hover{
+    background-color: rgb(29, 121, 124);
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+main{
+    display: flex;
+    margin-top: 4%;
+    /* background-color: black; */
+    
+}
+.description{
+    width: 45%;
+    /* background-color: azure; */
+    
+}
+.description h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.description p{
+    margin: 5% 0% 9% 0%;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.description button{
+    background-color: rgb(48,48,46);
+    color: white;
+    font-size: 15px;
+    width: 120px;
+    height: 41px;
+    border-radius: 40px;
+    border: none;
+}
+#long{
+    width: 45%;
+    /* height: 80%; */
+    background-color: rgb(247,229,75);
+    margin: 2%;
+    border-top-left-radius: 145px;
+    border-top-right-radius: 145px;
+    border-bottom-left-radius: 145px;
+}
+#small1{
+    width: 90%;
+    /* height: 50%;   */
+    background-color: rgb(237,89,32);
+    margin: 2%;
+    border-top-left-radius: 145px;
+    border-top-right-radius: 145px;
+    border-bottom-right-radius: 145px;
+}
+#small2{
+    width: 90%;
+    /* height: 50%;   */
+    background-color: rgb(172,164,254); 
+    margin: 2%;
+    border-bottom-left-radius: 145px;
+    border-top-left-radius: 145px;
+    border-bottom-right-radius: 145px;
+}
+.images{
+    /* background-color: rgb(212, 212, 238); */
+    display: flex;
+    /* background-color: black; */
+    width: 55%;
+
+}
+.about{
+    display: flex;
+    border-radius: 15px;
+    width: 80%;
+    margin-top: 4%;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.words{
+    padding: 4%;
+}
+#title{
+    width: 85%;
+}
+.about div{
+    width: 50%;
+    /* background-color: blue; */
+}
+.about img{
+    width: 80%;
+    margin: 5%;
+    background-color: rgb(30,74,153);
+    border-radius: 15PX;
+}
