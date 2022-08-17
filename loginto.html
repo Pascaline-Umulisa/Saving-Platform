@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css "
+    />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <nav>
+      <h3 class="logo">dot <b> SAVE</b></h3>
+      <button class="home"><a href="index.html">Home</a></button>
+      <span class="why">
+        <button class="two2">Why save</button>
+        <!-- <div class="reasons">
+            <a href="#"> <i class="fa fa-money"></i>Learn the importance of saving</a>
+            <a href="#"><i class="fas fa-venus"></i>Learn from students who saved</a>
+            <a href="#"><i class="fas fa-balance-scale"></i>Learn how to use money</a>
+        </div> -->
+      </span>
+      <span class="why">
+        <button class="one1">Track Your Money</button>
+        <!-- <div class="reasons">
+            <a href="#"><i class="fas fa-address-book"></i> My account</a>
+            <a href="#"><i class="fa fa-plus"></i>My balance</a>
+            <a href="#"><i class="fas fa-donate"></i>My journey</a>
+        </div> -->
+      </span>
+      <button class="btnlog" id="one">Login</button>
+      <button class="btnSig" id="two">Sign Up</button>
+    </nav>
+    <div id="logging">
+      <!-- <i class="fa fa-close"></i> -->
+      <h2>Fill in your detail to Sign Up</h2>
+      <form >
+      <div id="both">
+        <label
+          >Full name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label
+        ><input id="name" type="text" placeholder="Pascaline Umulisa ..." required/>
+        <!-- <i class="fa-solid fa-circle-exclamation"></i> -->
+        <span id="message"></span>
+      </div>
+      <div class="inp">
+        <label
+          >Email &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp;
+        </label>
+        <input id="email" type="email" placeholder="anne@gmail.com..."  required/>
+        <span id="message"></span>
+      </div>
+      <div class="inp">
+        <label>Password &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label
+        ><input
+          id="password"
+          type="password"
+          placeholder="atleast 8 characters long..." required
+        />
+        <span id="message"></span>
+      </div>
+      <div class="both">
+        <label>Confirm Password </label
+        ><input
+          id="confirm password"
+          type="password"
+          placeholder="Passwords must match..." required minlength="5"
+        />
+        <span id="message"></span>
+      </div>
+      <!-- <button class="login sig" id="login">Login</button> -->
+      <div>
+        <button class="signUp both" id="signUp">Continue</button>
+        <span></span>
+      </div>
+    </form>
+    </div>
+    <!-- <script src="main.js"></script> -->
+  </body>
+</html>
